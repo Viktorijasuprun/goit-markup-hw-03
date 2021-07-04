@@ -15,6 +15,7 @@
   </head>
     <body>
     <header class="header">
+      <div class="container header-container">
       <nav class="navigation">
         <a class="logo link" href="./" > <span class="logo-blue"> Web</span>Studio </a>
         <ul class="menu list">
@@ -23,19 +24,23 @@
           <li class="menu-item"><a class="menu-link link" href="#">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="list">
+      <ul class="header-adress list">
         <li><a class="header-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="header-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="header-contacts tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
     <main>
-      <section>
-        <!--HERO-->
-        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+      <!--HERO-->
+      <div class="container ">
+      <section class="hero">
+        <h1 class="main-title">Эффективные решения <p>для вашего бизнеса</p> </h1>
         <button class="main-title-button" type="button">Заказать услугу</button>
+        </div>
       </section>
       <section>
-        <ul class="list">
+        <div class="container">
+        <ul class="subtitle list">
           <li>
             <h3 class="subtitle-list">Внимание к деталям</h3>
             <p class="subt-list-text">
@@ -65,11 +70,13 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
-      <section>
-        <!--What we do -->
+      <!--What we do -->
+      <section class="what-we-do">
+        <div class="container">
         <h2 class="benefits">Чем мы занимаемся</h2>
-        <ul class="list">
+        <ul class="benefits-descrt list">
           <li class="benefits-list">
             <img
               src="./images/what we do/What_we_do_1.jpg"
@@ -95,12 +102,14 @@
             />
           </li>
         </ul>
+      </div>
       </section>
-      <section>
+      <section class="our-team">
         <!--Our team-->
+        <div class="container">
         <h2 class="title-team">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="team-list list">
+          <li class="team-item">
             <img
               src="./images/Our team/our_team_1.jpg"
               alt="Product Designer"
@@ -110,7 +119,7 @@
             <h3 class="subt-team-name">Игорь Демьяненко</h3>
             <p class="team-profession">Product Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/Our team/our_team_2.jpg"
               alt="Frontend Developer"
@@ -120,7 +129,7 @@
             <h3 class="subt-team-name">Ольга Репина</h3>
             <p class="team-profession">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/Our team/our_team_3.jpg"
               alt="Marketing"
@@ -130,7 +139,7 @@
             <h3 class="subt-team-name">Николай Тарасов</h3>
             <p class="team-profession">Marketing</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="./images/Our team/our_team_4.jpg"
               alt="UI Designer"
@@ -141,12 +150,15 @@
             <p class="team-profession">UI Designer</p>
           </li>
         </ul>
+        </div>  
       </section>
     </main>
+    <div class="container">
     <footer class="footer">
+      <div class="logo-word">
       <a class="footer-logo link" href="./"> <span class="logo-blue">Web</span>Studio </a>
       <address>
-        <ul class="list">
+        <ul class="adress-list list">
           <li>
             <a class="footer-adress link"
               href="https://goo.gl/maps/AaFA44fgxM3qHyrE7"
@@ -160,6 +172,7 @@
           <li><a class="footer-contacts link" href="tel:+380991111111"> +38 099 111 11 11 </a></li>
         </ul>
       </address>
-    </footer>
+      </footer>
+    </div>
   </body>
 </html>
