@@ -97,6 +97,9 @@ img {
 .menu-item :focus {
   color: var(--accent-color);
 }
+.menu-item :visited {
+  color: #000000;
+}
 
 .menu .menu-item .current {
   color: #188ce8;
@@ -127,6 +130,8 @@ img {
   background-color: #2f303a;
   text-align: center;
   align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .main-title {
@@ -136,8 +141,7 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--title-text-color);
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .main-title-button {
@@ -148,7 +152,11 @@ img {
   cursor: pointer;
   color: var(--title-text-color);
   background-color: var(--accent-color);
-  margin-bottom: 200px;
+  height: 50px;
+  width: 200px;
+  left: 700px;
+  top: 430px;
+  border-radius: 4px;
 }
 
 .main-title-button:hover,
@@ -156,12 +164,16 @@ img {
   background-color: #188ce8;
   color: var(--title-text-color);
 }
+.identitation {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .subtitle {
   display: flex;
   align-items: center;
-  margin-top: 95px;
-  margin-bottom: 95px;
 }
+
 .subtitle-list {
   font-weight: bold;
   font-size: 14px;
@@ -169,6 +181,9 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+}
+.subt-identit:not(:last-child) {
+  padding-right: 30px;
 }
 .subt-list-text {
   font-size: 14px;
@@ -183,23 +198,23 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .benefits-descrt,
 .team-list {
   display: flex;
-  margin-top: -30px;
-  margin-left: -30px;
+  justify-content: space-between;
 }
 
-.benefits-list,
-.team-item {
-  margin-top: 30px;
-  margin-left: 30px;
+.our-team {
+  background-color: #e5e5e5;
+  margin-top: 94px;
   margin-bottom: 94px;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .title-team {
   font-weight: bold;
   font-size: 36px;
@@ -207,8 +222,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-top: 94px;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .subt-team-name {
@@ -218,6 +232,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 30px;
 }
 .team-profession {
   font-size: 16px;
@@ -228,9 +243,11 @@ img {
 }
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-word {
-  padding-top: 60px;
+  margin-bottom: 20px;
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -240,15 +257,13 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
-.adress-list {
-  margin-top: 20px;
-  padding-bottom: 60px;
-}
+
 .footer-adress {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  font-style: normal;
 }
 
 .footer-contacts {
@@ -256,12 +271,13 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 /*======Cтили для портфолио=====*/
 
 .all-link-text {
   justify-content: center;
-  margin-top: 94px;
+  padding-top: 94px;
   margin-bottom: 34px;
 }
 .portfolio-button {
@@ -272,7 +288,6 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background: #f5f4fa;
-  border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -299,7 +314,11 @@ img {
   margin-top: 30px;
   margin-left: 30px;
 }
-
+.portf-cube {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 .portfolio-header {
   font-weight: bold;
   font-size: 18px;
