@@ -144,6 +144,10 @@ img {
   margin-bottom: 30px;
 }
 
+.main-title-second {
+  display: block;
+}
+
 .main-title-button {
   font-weight: bold;
   font-size: 16px;
@@ -157,6 +161,7 @@ img {
   left: 700px;
   top: 430px;
   border-radius: 4px;
+  border: none;
 }
 
 .main-title-button:hover,
@@ -181,6 +186,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
+  margin-bottom: 10px;
 }
 .subt-identit:not(:last-child) {
   padding-right: 30px;
@@ -191,6 +197,10 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
+.what-we-do {
+  padding-bottom: 94px;
+}
+
 .benefits {
   font-weight: bold;
   font-size: 36px;
@@ -198,7 +208,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .benefits-descrt,
@@ -209,11 +219,15 @@ img {
 
 .our-team {
   background-color: #e5e5e5;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .team-item {
   background-color: #ffffff;
+  padding-bottom: 30px;
+}
+.team-item-img {
+  margin-bottom: 30px;
 }
 .title-team {
   font-weight: bold;
@@ -232,7 +246,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-top: 30px;
 }
 .team-profession {
   font-size: 16px;
@@ -288,6 +301,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   background: #f5f4fa;
+  border: none;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
@@ -314,10 +330,9 @@ img {
   margin-top: 30px;
   margin-left: 30px;
 }
-.portf-cube {
-  padding-top: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
+.portfol-cube {
+  padding: 20px 24px;
+  border: 1px;
 }
 .portfolio-header {
   font-weight: bold;
